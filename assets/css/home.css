@@ -1,0 +1,38 @@
+body {
+    background-image: url(../images/Alphard.jpg);
+    background-size: cover;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 600;
+    color: white;
+}
+
+.content{
+    margin-top: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.content h1 {
+    text-align: center;
+    font-size: 5vh;
+    margin-bottom: -5px;
+}
+.content h2 {
+    background-color: #757dff;
+}
+.content a{
+    border-style: solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    text-align: center;
+    color: white;
+    width: 10%;
+    height: 50px;
+    background-color: #757dff;
+}
+.content span {
+    color: #757dff;
+}

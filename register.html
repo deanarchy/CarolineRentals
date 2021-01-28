@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Caroline Rentals</title>
+        <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+        <link rel="stylesheet" type="text/css" href="assets/css/register.css">
+
+        <script type="text/javascript" src="assets/scripts/validation.js"></script>
+    </head>
+    <body>
+        <div class="page">
+            <header>
+                <div id="logo_form">
+                    <div id="top_logo">
+                        <a href="home.html"><img src="assets/images/logo1.gif" alt="Caroline Rentals Header Logo"></a>
+                    </div>
+                    <div id="top_form">
+                        <a href="login.html">Login</a>
+                        <a href="register.html">Register</a>
+                    </div>
+                    
+                </div>
+                <nav>
+                    <ul>
+                        <li id="home_nav"><a href="home.html">Home</a></li>
+                        <li id="product_nav">
+                            <a href="product.html">Product</a>
+                            <div id="dropdown_content">
+                                <a href="#">Family Car</a>
+                                <a href="#">Commercial Car</a>
+                                <a href="#">Luxury Car</a>
+                            </div>
+                        </li>
+                        <li id="contact_nav"><a href="contact.html">Contact</a></li>
+                    </ul>
+                </nav>
+            </header>
+
+            <div class="content">
+                <h1>Register</h1>
+                <div class="reg_container">
+                    <h2>Name :</h2>
+                    <input type="text" name="name_reg" id="name_reg">
+                    <label id="name_error"> </label> 
+                    <h2>Email :</h2>
+                    <input type="text" name="email_reg" id="email_reg">
+                    <label id="email_error"> </label> 
+                    <h2>Gender :</h2>
+                    <div class="gender">
+                        <input class="gender" type="radio" id="male" name="gender" value="male">
+                        <label for="male" class="lbl_gender">Male</label>
+                        <input class="gender" type="radio" id="female" name="gender" value="female">
+                        <label for="female" class="lbl_gender">Female</label>
+                    </div>
+                    <label id="gender_error"> </label> 
+                    <h2>City :</h2>
+                    <select name="city" id="city">
+                        <option value="jakarta">Jakarta</option>
+                        <option value="tangerang">Tangerang</option>
+                    </select>
+                    <label id="city_error"> </label> 
+                    <h2>Address :</h2>
+                    <textarea name="address" id="address" cols="30" rows="5"></textarea>
+                    <label id="address_error"> </label> 
+                    <input type="button" value="Register" onclick="register()" id="register_btn">
+                </div>
+            </div>
+        
+        </div>
+        <div class="push"></div>
+        <footer>
+            <div id="footer_contact">
+                <a href="https://instagram.com" target="_blank"><img src="assets/images/instagram.png" alt="instagram"></a>
+                <a href="https://youtube.com" target="_blank"><img src="assets/images/youtube.png" alt="youtube"></a>
+                <a href="https://twitter.com" target="_blank"><img src="assets/images/twitter.png" alt="twitter"></a>
+                <a href="https://facebook.com" target="_blank"><img src="assets/images/facebook.png" alt="facebook"></a>
+                <div class="newsletter">
+                    Subscribe to Our Newsletter
+                    <input type="text" name="news_email" id="news_email" placeholder="Your Email">
+                    <button>Subscribe</button>
+                </div>
+            </div>
+            <div id="footer_cpy">
+                &#169;Copyright 2020 by Dean Ramadhan - 2301937173
+            </div>
+        </footer>
+    </body>
+</html>

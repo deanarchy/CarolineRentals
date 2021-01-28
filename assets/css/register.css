@@ -1,0 +1,55 @@
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 600;
+}
+
+.content {
+    margin-top: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.content h2 {
+    font-size: 1em;
+}
+.content h3 {
+    font-size: 0.75em;
+}
+.content input {
+    margin-top: 20px;
+    border: none;
+    border-bottom: solid 2px black;
+}
+
+.reg_container {
+    margin-top: 5%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+.reg_container label {
+    background-color: #FAF2F1;
+    font-weight: lighter;
+    color: red;
+}
+#register_btn {
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 75px;
+    height: 35px;
+    background-color:#757dff;
+    text-decoration: none;
+    margin-top: 10px;
+}
+
+label.lbl_gender {
+    background-color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 600;
+    color: black;
+}

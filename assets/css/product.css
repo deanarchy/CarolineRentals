@@ -1,0 +1,48 @@
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 600;
+}
+
+.content {
+    text-align: center;
+    margin-top: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 75%;
+    margin-left: 12.5%;
+    margin-right: 12.5%;
+}
+
+.content h1{
+    font-size: 4vh;
+}
+.content h2{
+    font-size: 2vh;
+}
+
+#car_container {
+    display: flex;
+    flex-direction: row;
+}
+
+.family_cars {
+    margin: 5% 1%;
+    width: 25%;
+    height: 20em;
+    flex-direction: column;
+    border: solid 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.family_cars h2 {
+    font-size: 1em;
+}
+
+.family_cars img {
+    height: 30%;
+    
+}

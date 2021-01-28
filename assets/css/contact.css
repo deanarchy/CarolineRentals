@@ -1,0 +1,69 @@
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 600;
+}
+
+.content{
+    margin-top: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#msg_contact {
+    display: flex;
+    margin-top: 2.5%;
+}
+
+
+
+#msg_container {
+    padding: 5%;
+    width: 75%;
+    background-color: #FAF2F1;
+    margin-right: 5%;
+    display: flex;
+    flex-direction: row;
+}
+#msg_container h2 {
+    font-size: 1em;
+} 
+#msg_container input {
+    background-color: #FAF2F1;
+    border: none;
+    border-bottom: 1px solid;
+}
+
+
+.msg_subcontainer {
+    margin-left: 5%;
+    margin-right: 5%;
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.msg_subcontainer a{
+    width: 50%;
+    height: 2em;
+    text-decoration: none;
+    background-color: #757dff;
+    margin-top: 5%;
+    text-align: center;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+
+#contact_container {
+    width: 25%;
+}
+
+#contact_container h3 {
+    font-size: 1em;
+}
